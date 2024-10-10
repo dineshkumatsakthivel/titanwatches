@@ -1,0 +1,288 @@
+.runinghbar{
+    display:flex;    
+    background-color: rgb(8, 1, 1);
+    width: 100%;
+    height: 1.6rem;
+    color: white;
+    font-weight: 300;
+    z-index: 40000;
+    }
+    .runinghbar marquee{
+        scroll-behavior: smooth;
+    }
+    .runing{
+        margin-left: 500px;
+    }
+    .navhome{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .navLogo{
+           font-size: 30px;
+           /* margin-left: 30px; */
+           text-transform: uppercase;
+           /* margin-top: -30px; */
+           position: relative;
+        }
+        .navleft{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* margin-right: 30px; */
+           /* margin-top: -20px; */
+           position: relative;
+           /* margin-left: -40px; */
+           
+    
+        }
+        .logoicon{
+            margin: 30px;
+            margin-top: 20px;
+            position: relative;
+            /* margin-left: -1px; */
+            font-size: 12px;
+        }
+        .icon{
+            margin-left: 10px;
+            position: relative;
+            font-size: 20px;
+    
+        }
+    }
+    .logoicon::after{
+        content: "";
+        background-color: black;
+        width: 0;
+        height: 2px;
+        position: absolute;
+        transition: .5s;
+        
+    }
+    .logoicon:hover::after{
+        width: 100%;
+        cursor: pointer;
+    
+    }
+    
+
+    .thongubox{
+        width: 1010px;
+        height: max-content;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: absolute;
+        top:-500rem;
+        margin-left: -500px;
+        background-color: rgb(243, 243, 233);
+        z-index: 100000;
+        border: none;
+        border-radius: 10px;
+        h4{
+         margin: 10px;
+        }
+        span{
+            color: rgb(162, 156, 156);
+            margin: 10px;
+        }
+        button{
+            border: none;
+            border-radius: 2px;
+            box-shadow: 1px 1px 1px 2px black;
+            padding: 4px;
+            margin-left: 30px;
+        }
+        .droplist h4{
+            background-color: antiquewhite;
+            align-items: center;
+            justify-content: center;
+            &:hover{
+                background-color: aliceblue;
+            }
+          
+          
+        }
+        .dot{
+            display: none;
+        }
+        
+       
+       
+    /* ---------------------dropbox */
+        }
+        .showdropbox{
+            top:4rem;
+        }
+        .romvebtn{
+            display: none;
+        }
+        .dot{
+            display: none;
+        }
+        /* ----------------media queary----------------------- */
+        @media screen and (max-width:760px) {
+    
+            .runinghbar marquee{
+      position: relative;
+    
+        
+       }
+       .navleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left:290px;
+
+        top: -700px;
+        width: 400px;
+        gap: 10px;
+        height: max-content;
+        border-radius: 10px;
+        width: 100%;
+        background-color: rgb(125, 129, 129);
+        margin-left: 500px;
+        box-shadow: 0px 2px black;
+      
+
+        
+        
+        
+       }
+       .navLogo{
+        margin-top: -380px;
+        position: relative;
+       }
+       .thongubox{
+        width: 300px;
+        height: max-content;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: absolute;
+        top:-500rem;
+        margin-left:-179px;
+        z-index: 10000;
+        background-color: rgb(22, 23, 23);
+        color: red;
+        
+        h4{
+         margin: 10px;
+         color: rgb(181, 27, 27);
+        }}
+        .showdropbox{
+            top:4rem;
+        }
+        .dot{
+            display: block;
+            position: absolute;
+            top: 70px;
+            /* transition: -50%; */
+            margin-left: 350px;
+            font-size: 30px;
+        }
+        .activehide{
+            top: 70px;
+            transition: .3s;
+        }
+        .romvebtn{
+            display:block;
+            position: absolute;
+            font-size: 30px;
+            top: 10%;
+            right: 50%;
+            transition: .5s;
+        }
+        .navhead{
+            height: 150px;
+        }}
+/* ------------------------------------------ */
+        @media screen and (max-width:460px) {
+    
+            .runinghbar marquee{
+      position: relative;
+    
+        
+       }
+       .navleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left:-290px;
+        top: -700px;
+        width: 500px;
+        gap: 10px;
+        height: max-content;
+        border-radius: 10px;
+        width: 100%;
+        background-color: rgb(125, 129, 129);
+        margin-left: 100px;
+        box-shadow: 0px 2px black;
+
+        
+        
+        
+       }
+       .navLogo{
+        margin-top: -380px;
+        position: relative;
+       }
+       .thongubox{
+        width: 300px;
+        height: max-content;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        position: absolute;
+        top:-500rem;
+        margin-left:-179px;
+        z-index: 10000;
+        background-color: rgb(22, 23, 23);
+        color: red;
+        
+        h4{
+         margin: 10px;
+         color: rgb(181, 27, 27);
+        }}
+        .showdropbox{
+            top:4rem;
+        }
+        .dot{
+            display: block;
+            position: absolute;
+            top: 70px;
+            /* transition: -50%; */
+            margin-left: 320px;
+            font-size: 30px;
+        }
+        .activehide{
+            top: 70px;
+            transition: .3s;
+        }
+        .romvebtn{
+            display:block;
+            position: absolute;
+            font-size: 30px;
+            top: 10%;
+            right: 50%;
+            transition: .5s;
+        }
+        .navhead{
+            height: 150px;
+        }
+    /* ----------------------------------     */
+    }
+    .navhead{
+        border: 0px;
+        box-shadow: 3px 0px 10px black;
+    }
+    
+       
+  

@@ -1,0 +1,206 @@
+ 
+  {
+    img: "./watchimg/1713BM02_1.jpg",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Women's Watch",
+    prc: "$ 3565",
+    strp:"mettal"
+},
+{
+    img: "./watchimg/1733KL03_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Men's Watch",
+    prc: "$ 15365",
+    strp:"silicon"
+},
+{
+    img: "./watchimg/1802NL02_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Men's Watch",
+    prc: "$ 55454",
+    strp:"mettal"
+
+},
+{
+    img: "./watchimg/1805QM04_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Unisex Watch",
+    prc: "$ 45365",
+    strp:"blackmettal"
+},
+{
+    img: "./watchimg/1806NM01_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Men's Watch",
+    prc: "$ 35365",
+    strp:"blackmettal"
+
+}, {
+    img: "./watchimg/1806NM01_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Women's Watch",
+    prc: "$ 24255",
+    strp:"blackmettal"
+
+}, {
+    img: "./watchimg/1806NM01_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Unisex Watch",
+    prc: "$ 4422",
+    strp:"mettal"
+
+}, {
+    img: "./watchimg/1824BM03_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Men's Watch",
+    prc: "$ 5322",
+    strp:"mettal"
+
+}, {
+    img: "./watchimg/1825SM11_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Men's Watch",
+    prc: "$ 12343",
+    strp:"mettal"
+
+}, {
+    img: "./watchimg/2606WM08_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Men's Watch",
+    prc: "$ 35365",
+    strp:"mettal"
+
+},
+{
+    img: "./watchimg/2608QM02_1.webp",
+    dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+    gen: "Men's Watch",
+    prc: "$ 35365",
+    strp:"mettal"
+
+},
+{
+    img: "./watchimg/2725WM01_1.webp",
+    dis: "Titan Men's Timeless Style Watch: Refined Black Dial and Metal Strape",
+    gen: "Women's Watch",
+    prc: "$ 35365",
+    strp:"mettal"
+
+},
+// -----------------------------
+{
+  img: './watchimg/1639SM02_1.webp',
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 35365",
+  strp:"mettal"
+
+},
+{
+  img: "./watchimg/1648SM01_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Women's Watch",
+  prc: "$ 12365",
+  strp:"mettal"
+
+},
+{
+  img: "./watchimg/1648SM01_1.webp"  ,      
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 5465",
+  strp:"mettal"
+
+},
+{
+  img: "./watchimg/1713BM02_1.jpg",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Women's Watch",
+  prc: "$ 3565",
+  strp:"silicon"
+
+
+
+},
+{
+  img: "./watchimg/1733KL03_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 15365",
+  strp:"silicon"
+
+},
+{
+  img: "./watchimg/1802NL02_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 55454"
+},
+{
+  img: "./watchimg/1805QM04_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Unisex Watch",
+  prc: "$ 45365",
+  strp:"mettal"
+
+},
+{
+  img: "./watchimg/1806NM01_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 35365",
+  strp:"blackmettal"
+
+}, {
+  img: "./watchimg/1806NM01_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Women's Watch",
+  prc: "$ 24255",
+  strp:"blackmettal"
+
+}, {
+  img: "./watchimg/1806NM01_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Unisex Watch",
+  prc: "$ 4422",
+  strp:"blackmettal"
+
+}, {
+  img: "./watchimg/1824BM03_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 5322",
+  strp:"mettal"
+
+
+}, {
+  img: "./watchimg/1825SM11_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 12343",
+  strp:"mettal"
+
+}, {
+  img: "./watchimg/2606WM08_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 35365",
+  strp:"mettal"
+
+},
+{
+  img: "./watchimg/2608QM02_1.webp",
+  dis: "Titan Men's Multifunction Karishma: Two-Tone Steel Elegance Watch",
+  gen: "Men's Watch",
+  prc: "$ 35365",
+  strp:"mettal"
+
+},
+{
+  img: "./watchimg/2725WM01_1.webp",
+  dis: "Titan Men's Timeless Style Watch: Refined Black Dial and Metal Strape",
+  gen: "Women's Watch",
+  prc: "$ 35365",
+  strp:"mettal"
+
+},

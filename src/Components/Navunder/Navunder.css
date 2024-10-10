@@ -1,0 +1,1643 @@
+.secondbox{
+width: 98%;
+height: max-content;
+}
+
+.navbarrow{
+    font-size: 14px;
+
+}
+.navcollect{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.navitem {
+    /* background-color: rgb(196, 117, 15); */
+    margin: 4px;
+   /* border: 1px solid black; */
+    position: relative;
+}
+.navitem1{
+    margin: 4px;
+   /* border: 1px solid black; */
+    position: relative;
+}
+.navitem::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    top: 20px;
+    width: 0;
+    margin-left: -50px;
+    /* transform: 50%; */
+    
+}
+.navitem1::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    top: 20px;
+    width: 0;
+    margin-left: -50px;
+    /* transform: 50%; */
+}
+.navitem:hover::after{
+    width: 60px;
+    cursor: pointer;
+    transition: .6s;
+    
+}
+.navitem1:hover::after{
+    width: 60px;
+    cursor: pointer;
+    transition: .6s;
+}
+.navitemn{
+    margin: 4px;
+    /* border: 1px solid black; */
+     position: relative;
+}
+.navitemn::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    height: 2px;
+    top: 20px;
+    margin-left:-10px;
+}
+.navitemn:hover::after{
+    width: 100px;
+    cursor: pointer;
+    transition: .6s;
+    
+}
+
+.navitemb{
+    margin: 4px;
+    /* border: 1px solid black; */
+     position: relative;
+}
+.navitemb::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    height: 2px;
+    top: 20px;
+    margin-left:-10px;
+}
+.navitemb:hover::after{
+    width: 140px;
+    cursor: pointer;
+    transition: .6s;
+    
+}
+.locationn{
+    width: 100%;
+    border: none;
+    background-color: rgb(249, 232, 211);
+    
+    
+}
+.inputlocation{
+
+        width: 90%;
+        border: none;
+    background-color: rgb(249, 232, 211);
+
+}
+@media screen and (max-width:760px) {
+
+    .navbarrow{
+        display: none;
+    }
+    
+}
+/* ---------------------------------------dropbox----------------------------- */
+.homedrop{
+    display:none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px black;
+
+    position: absolute;
+    width:1100px;
+    border: 1px solid black;
+    height: max-content;
+    background-color: rgb(216, 223, 223);
+    top: 25px;
+}
+.navitem1:hover .homedrop{
+    display:block;
+}
+.imghome{
+    width:370px;
+    height: max-content ;
+}
+.homecol2{
+    background-color: rgb(236, 236, 233);
+}
+.homecol1{
+    line-height: 36px;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+
+}
+.ullist{
+    list-style: none;
+}
+
+.show1{
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.show1::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    cursor: pointer;
+
+    
+    
+    height: 2px;
+    margin-left: -100px;
+    z-index: 100000;
+    margin-top: 30px;
+
+    transition: .3s ;
+
+}
+.show1:hover::after{
+    width:100px;
+
+}
+/* .show2{
+        width: 100%;
+        margin-left: 10px;  */
+/* } */
+.show2::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show2:hover::after{
+    width:190px ;
+}
+
+.show3::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -120px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+}
+.show3:hover::after{
+    width:160px ;
+}
+.show9::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show9:hover::after{
+    width:190px ;
+}
+.show4::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show4:hover::after{
+    width:190px ;
+}
+.show5::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show5:hover::after{
+    width:190px ;
+}
+.show6::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show6:hover::after{
+    width:190px ;
+}
+
+.imghome{
+    width: 340px;
+    border: none;
+    border-radius: 20px;
+}
+
+.show2{
+    position: relative;
+}
+
+/* ----------------------------2nd home box----------
+ */
+ .looks{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show2:hover .looks{
+    cursor: pointer;
+    display: block;
+}
+/* ------------- */
+.looks2{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks2 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks2 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show9:hover .looks2{
+    cursor: pointer;
+    display: block;
+}
+/* /------------------------ */
+.looks3{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks3 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks3 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show4:hover .looks3{
+    cursor: pointer;
+    display: block;
+}
+/* -------------------------- */
+.looks4{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks4 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks4 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show5:hover .looks4{
+    cursor: pointer;
+    display: block;
+}
+/* ------------------------------- */
+.looks5{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks5 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks6 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show6:hover .looks5{
+    cursor: pointer;
+    display: block;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+.homedrop1{
+    display:none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px black;
+
+    position: absolute;
+    width:1100px;
+    border: 1px solid black;
+    height: max-content;
+    background-color: rgb(216, 223, 223);
+    top: 25px;
+    margin-left: -100px;
+}
+.navitem:hover .homedrop1{
+    display:block;
+}
+.imghome{
+    width:370px;
+    height: max-content ;
+}
+.homecol2{
+    background-color: rgb(236, 236, 233);
+}
+.homecol1{
+    line-height: 36px;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+
+}
+.ullist{
+    list-style: none;
+}
+
+.show1{
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.show1::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    cursor: pointer;
+
+    
+    
+    height: 2px;
+    margin-left: -100px;
+    z-index: 100000;
+    margin-top: 30px;
+
+    transition: .3s ;
+
+}
+.show1:hover::after{
+    width:100px;
+
+}
+/* .show2{
+        width: 100%;
+        margin-left: 10px;  */
+/* } */
+.show2::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show2:hover::after{
+    width:190px ;
+}
+
+.show3::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -120px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+}
+.show3:hover::after{
+    width:160px ;
+}
+.show9::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show9:hover::after{
+    width:190px ;
+}
+.show4::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show4:hover::after{
+    width:190px ;
+}
+.show5::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show5:hover::after{
+    width:190px ;
+}
+.show6::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show6:hover::after{
+    width:190px ;
+}
+
+.imghome{
+    width: 340px;
+    border: none;
+    border-radius: 20px;
+}
+
+.show2{
+    position: relative;
+}
+
+/* ----------------------------2nd home box----------
+ */
+ .looks{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show2:hover .looks{
+    cursor: pointer;
+    display: block;
+}
+/* ------------- */
+.looks2{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks2 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks2 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show9:hover .looks2{
+    cursor: pointer;
+    display: block;
+}
+/* /------------------------ */
+.looks3{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks3 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks3 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show4:hover .looks3{
+    cursor: pointer;
+    display: block;
+}
+/* -------------------------- */
+.looks4{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks4 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks4 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show5:hover .looks4{
+    cursor: pointer;
+    display: block;
+}
+/* ------------------------------- */
+.looks5{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks5 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks6 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show6:hover .looks5{
+    cursor: pointer;
+    display: block;
+}
+/* -------------------------------------------------------------------- */
+.homedrop2{
+    display:none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px black;
+
+    position: absolute;
+    width:1100px;
+    border: 1px solid black;
+    height: max-content;
+    background-color: rgb(216, 223, 223);
+    top: 25px;
+    margin-left: -300px;
+}
+.navitemn:hover .homedrop2{
+    display:block;
+}
+.imghome{
+    width:370px;
+    height: max-content ;
+}
+.homecol2{
+    background-color: rgb(236, 236, 233);
+}
+.homecol1{
+    line-height: 36px;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+
+}
+.ullist{
+    list-style: none;
+}
+
+.show1{
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.show1::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    cursor: pointer;
+
+    
+    
+    height: 2px;
+    margin-left: -100px;
+    z-index: 100000;
+    margin-top: 30px;
+
+    transition: .3s ;
+
+}
+.show1:hover::after{
+    width:100px;
+
+}
+/* .show2{
+        width: 100%;
+        margin-left: 10px;  */
+/* } */
+.show2::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show2:hover::after{
+    width:190px ;
+}
+
+.show3::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -120px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+}
+.show3:hover::after{
+    width:160px ;
+}
+.show9::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show9:hover::after{
+    width:190px ;
+}
+.show4::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show4:hover::after{
+    width:190px ;
+}
+.show5::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show5:hover::after{
+    width:190px ;
+}
+.show6::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show6:hover::after{
+    width:190px ;
+}
+
+.imghome{
+    width: 340px;
+    border: none;
+    border-radius: 20px;
+}
+
+.show2{
+    position: relative;
+}
+
+/* ----------------------------2nd home box----------
+ */
+ .looks{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show2:hover .looks{
+    cursor: pointer;
+    display: block;
+}
+/* ------------- */
+.looks2{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks2 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks2 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show9:hover .looks2{
+    cursor: pointer;
+    display: block;
+}
+/* /------------------------ */
+.looks3{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks3 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks3 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show4:hover .looks3{
+    cursor: pointer;
+    display: block;
+}
+/* -------------------------- */
+.looks4{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks4 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks4 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show5:hover .looks4{
+    cursor: pointer;
+    display: block;
+}
+/* ------------------------------- */
+.looks5{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks5 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks6 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show6:hover .looks5{
+    cursor: pointer;
+    display: block;
+}
+/* -------------------------------------------------------------------- */
+.homedrop3{
+    display:none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px black;
+
+    position: absolute;
+    width:1100px;
+    border: 1px solid black;
+    height: max-content;
+    background-color: rgb(216, 223, 223);
+    top: 25px;
+    margin-left: -450px;
+}
+.navitemb:hover .homedrop3{
+    display:block;
+}
+.imghome{
+    width:370px;
+    height: max-content ;
+}
+.homecol2{
+    background-color: rgb(236, 236, 233);
+}
+.homecol1{
+    line-height: 36px;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+
+}
+.ullist{
+    list-style: none;
+}
+
+.show1{
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.show1::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    cursor: pointer;
+
+    
+    
+    height: 2px;
+    margin-left: -100px;
+    z-index: 100000;
+    margin-top: 30px;
+
+    transition: .3s ;
+
+}
+.show1:hover::after{
+    width:100px;
+
+}
+/* .show2{
+        width: 100%;
+        margin-left: 10px;  */
+/* } */
+.show2::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show2:hover::after{
+    width:190px ;
+}
+
+.show3::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -120px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+}
+.show3:hover::after{
+    width:160px ;
+}
+.show9::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show9:hover::after{
+    width:190px ;
+}
+.show4::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show4:hover::after{
+    width:190px ;
+}
+.show5::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show5:hover::after{
+    width:190px ;
+}
+.show6::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0;
+    
+    
+    height: 2px;
+    margin-left: -250px;
+    z-index: 100000;
+    margin-top: 30px;
+    transition: 1s ;
+    cursor: pointer;
+
+}
+.show6:hover::after{
+    width:190px ;
+}
+
+.imghome{
+    width: 340px;
+    border: none;
+    border-radius: 20px;
+}
+
+.show2{
+    position: relative;
+}
+
+/* ----------------------------2nd home box----------
+ */
+ .looks{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show2:hover .looks{
+    cursor: pointer;
+    display: block;
+}
+/* ------------- */
+.looks2{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks2 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks2 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show9:hover .looks2{
+    cursor: pointer;
+    display: block;
+}
+/* /------------------------ */
+.looks3{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks3 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks3 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show4:hover .looks3{
+    cursor: pointer;
+    display: block;
+}
+/* -------------------------- */
+.looks4{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks4 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks4 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show5:hover .looks4{
+    cursor: pointer;
+    display: block;
+}
+/* ------------------------------- */
+.looks5{
+    position: absolute;
+    width: 450px;
+    font-size:20px;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    margin-left: 250px;
+    margin-top: -200px;
+    font-size: 15px;
+    padding-left: 40px;
+    /* background-color: red; */
+    
+    transition: .3s;
+
+}
+.looks5 ul li{
+    background-color: rgb(217, 215, 213);
+    list-style: none;
+
+    
+}
+.looks6 li:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+.show6:hover .looks5{
+    cursor: pointer;
+    display: block;
+}
+/* -----------------------nextimgdiv */
+
+.fulimg{
+    width: 1259px;
+    margin-top: 10px;
+}
+@media screen and (max-width:760px) {
+
+    .fulimg{
+    width: 390px;
+    /* max-width: auto; */
+    margin-top: 10px;}
+
+}
+@media screen and (max-width:460px) {
+
+    .fulimg{
+    width: 350px;
+    /* max-width: auto; */
+    margin-top: 10px;
+    padding: 1px;
+}
+
+}
+
+
+/* ----------------------------------------right side sticky-------------------------------------------------- */
+/* .par{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    transform: rotate(270deg);
+    width: 300px;
+    text-align: center;
+    margin-left: -86px;
+    position: absolute;
+    
+    
+}
+.hidebox{
+    /* display: none; */
+    /* padding: 10px; */
+    /* background-color: rgb(106, 99, 99); */
+    /* width: 500px;
+    margin-left: 10px;
+ 
+ 
+    position: absolute;
+  top: -700px;  
+  font-size: 19px;  
+    z-index:20000;
+}
+.btn1{
+    width: 100px;
+    background-color: goldenrod;
+
+
+}
+.movbox{
+    top: 310px;
+    right:70px;
+}
+.rightup{
+    position: fixed;
+    margin-left: 1162px;
+    margin-top: 20px;
+    transition: .5s;
+    z-index:10000 ;
+    display: block;
+
+    
+}
+.movlef{ */
+    /* margin-left: 690px; */
+    /* transition: .3s;
+    z-index: 1000;
+}
+.secondlog{
+    position: absolute;
+    margin-left: -94px;
+    margin-top: 114px;
+} */
+/* .checkborder{ */
+    /* border: 2px solid rgb(241, 18, 56); */
+    /* background-color: gray;
+    margin: 0;
+    padding: 10px;
+    top: 0rem;
+    width: 500px;
+    height: 300px;
+    margin-left: -200px;
+    
+
+}
+.btnlef{
+    background-color: black;
+    border:1px solid pink;
+
+    color: white;
+}
+.movebox{
+display: none;
+}
+
+@media screen and (max-width:760px) {
+    .rightup{ */
+        /* position: sticky; */
+        /* margin-left: 302px;
+        margin-top: 100px;
+        transition: .5s;
+        z-index:1 ;
+        display: block;
+    
+        
+    }
+    .movbox{
+        width: 200px;
+        top: 110px;
+        right:100px;
+        z-index: 30000;
+        background-color: gray;
+    }
+    .checkborder{ */
+        /* border: 2px solid rgb(241, 18, 56); */
+        /* margin: 0;
+        padding: 10px;
+        top: 0rem;
+        width: 200px;
+        height: 500px;
+        margin-left: 10px;
+        
+    
+    }
+    
+} */
+
+
+
+ 

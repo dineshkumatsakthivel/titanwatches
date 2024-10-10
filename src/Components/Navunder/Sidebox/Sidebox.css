@@ -1,0 +1,132 @@
+.sidebox{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(100, 80, 80);
+    position: fixed;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 20000;
+    top: 130px;
+    display: none;
+    transition: .4s;
+    
+
+}
+.kami{
+    transition: .4s;
+     display: block;
+}
+.secondlog{
+  position: fixed;
+  top: -0px;
+}
+
+
+
+.par1{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    transform: rotate(270deg);
+    width: 300px;
+    text-align: center;
+    margin-left:-176px;
+    position: absolute;
+    top:124px;
+    
+    
+}
+.par{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    transform: rotate(270deg);
+    width: 300px;
+    text-align: center;
+    margin-left:1088px;
+    position: absolute;
+    top:254px;
+    z-index: 40000;
+    
+    
+}
+.box1{
+  position: relative;
+  padding: 10px;
+  span{
+    font-size: 19px;
+    color: white;
+    padding: 70px;
+  }
+
+
+}
+.singdetials{
+ background-color: gray;
+ padding: 30px;
+ margin: 20px;
+}
+ .btn1{
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 20px;
+
+}
+@media screen and (max-width:720px) {
+
+  .par{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    transform: rotate(270deg);
+    width: 200px;
+    text-align: center;
+    margin-left:534px;
+    position: absolute;
+    top:254px;
+    z-index: 40000;
+    
+    
+}
+  
+}
+@media screen and (max-width:420px) {
+
+  .par{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    transform: rotate(270deg);
+    width: 300px;
+    text-align: center;
+    margin-left:186px;
+    position: absolute;
+    top:354px;
+    z-index: 40000;
+    
+    
+}
+.sidebox{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(100, 80, 80);
+  position: fixed;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  z-index: 20000;
+  top: 230px;
+  display: none;
+  transition: .4s;
+  
+
+}
+.kami{
+  transition: .4s;
+   display: block;
+}
+  
+}

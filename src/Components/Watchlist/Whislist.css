@@ -1,0 +1,22 @@
+.wishlist-page {
+    padding: 20px;
+  }
+  
+  .wishlist-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .add-to-cart {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #218838;
+  }
+  
